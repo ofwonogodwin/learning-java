@@ -4,10 +4,7 @@
  */
 package firstjavaproject;
 
-/**
- *
- * @author godwin-ofwono
- */
+import java.util.Scanner;
 public class FirstJavaProject {
 
     /**
@@ -57,6 +54,23 @@ public class FirstJavaProject {
         System.out.println(message.length());
         System.out.println(message.toLowerCase());
         System.out.println(message.toUpperCase());
+        
+        //Dealing with Arrays
+        //int[] numbers = {1,2,3,4,5,1,4};
+        //System.out.println(numbers);
+        //System.out.println(Arrays.tostring(numbers));
+        
+        //Reading Input In Java. The scanner Object is very essential here
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter Age :");
+        int maAge = scanner.nextInt();
+        System.out.println("You are "+maAge+" years old");
+        
+        //Lets Try Another simple one That allows U to input full Names and gives Results.
+        Scanner naming = new Scanner(System.in);
+        System.out.print("Enter Your Full names Here :");
+        String nam = naming.nextLine();
+        System.out.println("Ur full  Names Are : "+nam);
                 
     }
     
