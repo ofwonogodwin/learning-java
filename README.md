@@ -20,7 +20,8 @@ This is my first Java program, written as part of my learning journey in Java de
 
 	1.	Clone this repository:
 
-git clone https://github.com/your-username/repo-name.git
+git clone https://github.com/ofwonogodwin/learning-java.git
+
 cd repo-name
 
 
