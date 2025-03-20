@@ -31,7 +31,7 @@ public class FirstJavaProject {
         System.out.println("The Temperature in Sudan is "+temp);
         
         int egyptTemp = temp;
-        System.out.println("The Temperatur in Egypt is "+egyptTemp+" Degrees Cell");
+        System.out.println("The Temperature in Egypt is "+egyptTemp+" Degrees Cell");
         
         //Variable Types In Java
         //bytes,short,it,long,float,double,char,bolean
@@ -47,6 +47,16 @@ public class FirstJavaProject {
         //Booleans
         boolean isEligible = false;
         System.out.println(name+ "'s eligiblity for the Loan is "+isEligible);
+        
+        //Conantenating /joining strings
+        String names = "Godwin"+" Ofwono";
+        System.out.println("My names are "+ names);
+        
+        //Lets Play around with some methods
+        String message = "Hello Guys";
+        System.out.println(message.length());
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
                 
     }
     
