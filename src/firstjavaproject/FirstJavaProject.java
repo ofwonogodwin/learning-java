@@ -32,6 +32,21 @@ public class FirstJavaProject {
         
         int egyptTemp = temp;
         System.out.println("The Temperatur in Egypt is "+egyptTemp+" Degrees Cell");
+        
+        //Variable Types In Java
+        //bytes,short,it,long,float,double,char,bolean
+        
+        char grade = 'A';
+        System.out.println(name+ " scored Grade'" +grade+"' In structured Programming");
+        
+        //longs
+        long youTubeViews = 3_123_456_798L;
+        String video = "Machine Learning";
+        System.out.println(name+ " got " +youTubeViews+" in the "+video+ "on You Tube");
+        
+        //Booleans
+        boolean isEligible = false;
+        System.out.println(name+ "'s eligiblity for the Loan is "+isEligible);
                 
     }
     
