@@ -46,4 +46,4 @@ java Main
 
 Feel free to fork out this project and suggest improvements!
 
-You can adjust the repo-name and your-username when setting up your GitHub repository. Let me know if you want to include anything specific!
+You can adjust the repo-name and your-username when setting up your GitHub repository.
